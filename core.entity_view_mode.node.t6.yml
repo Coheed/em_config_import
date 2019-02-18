@@ -1,0 +1,10 @@
+uuid: 219d1785-f9e3-496f-aa36-49652276405d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.t6
+label: 'Large compact teaser'
+targetEntityType: node
+cache: true
