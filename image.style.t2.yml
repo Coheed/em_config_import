@@ -1,0 +1,17 @@
+uuid: 5218797d-4106-476a-8e87-1b099e70515a
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: t2
+label: 'Teaser Compact (380×522)'
+effects:
+  624f33db-69fb-4115-a758-48f6a91dc4e7:
+    uuid: 624f33db-69fb-4115-a758-48f6a91dc4e7
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 380
+      height: 522
+      crop_type: focal_point

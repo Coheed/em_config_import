@@ -1,0 +1,17 @@
+uuid: 70882508-92a1-46c0-bbd8-ecc15fc1b924
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: t6
+label: 'Teaser Compact - Large (730×548)'
+effects:
+  1a233cc2-ab75-4479-aa8d-80bb2be9332a:
+    uuid: 1a233cc2-ab75-4479-aa8d-80bb2be9332a
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 730
+      height: 548
+      crop_type: focal_point

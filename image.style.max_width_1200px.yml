@@ -1,0 +1,15 @@
+uuid: bc70ebd0-55bc-4f22-9337-403a8054fa48
+langcode: en
+status: true
+dependencies: {  }
+name: max_width_1200px
+label: 'Max. width: 1200px'
+effects:
+  b02a402c-1b4c-4e4a-b04e-6ac264e2f691:
+    uuid: b02a402c-1b4c-4e4a-b04e-6ac264e2f691
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: 1200
+      upscale: false
