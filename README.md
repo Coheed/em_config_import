@@ -8,7 +8,7 @@ The goal is either to transfer the theme to the current page, or to play the art
 * Get your Local Environment u8 and running
 * Include your Repository  (Platform.sh - master branch - dzw)
 * Import Database (dzw - production)
-    * `Drush cr`
+    * `Drush cr` 
     * Check for tmp errors and fix them
     * Add Debbugging Settings to settings.php if not available yet.
  ```
