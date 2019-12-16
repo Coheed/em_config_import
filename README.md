@@ -219,7 +219,9 @@ $config['system.logging']['error_level'] = 'verbose';```
     drush config-delete -y block.block.infinite_sub_views_block__related_articles_block_1
 ```
 * Enable modules needed by em
-```
+
+
+```bash
 drush en -y hal comment content_moderation contextual layout_discovery serialization statistics workflows config_delete ctools_block custom_pub default_content devel kint field_formatter masonry masonry_views page_manager page_manager_ui panelizer panels panels_ipe poll realname scheduler_content_moderation_integration slick_ui slick_views tb_megamenu views_infinite_scroll views_rss_format views_rss em_default_content em_thunder_demo em_dynamic_teaser em_tweaks
 ```
 
