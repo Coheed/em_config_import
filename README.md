@@ -182,7 +182,7 @@ $config['system.logging']['error_level'] = 'verbose';```
 
 * `composer install && composer update --with-dependencies`
 * `drush updb`
-* copy em theme directorys to your new custom theme directory
+* copy em theme directorys to your new custom theme directory and activate it after disabling malfunctionall configs
 * copy em custom modules directory to your new custom modules directory
 * Disable **malfunctional** configs
 ```
